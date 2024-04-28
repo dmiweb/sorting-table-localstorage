@@ -17,4 +17,3 @@ for (const el of response) {
 
 const sortmemory = new SortingDataMemory();
 sortmemory.startSorting();
-
