@@ -1,0 +1,26 @@
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+th {
+  padding: 3px 20px;
+  border: 1px solid grey;
+}
+
+td {
+  padding: 3px 20px;
+  border: 1px solid grey;
+}
+
+.asc::after {
+  content: '\2193';
+  position: absolute;
+  color: grey;
+}
+
+.desc::after {
+  content: '\2191';
+  position: absolute;
+  color: grey;
+}
